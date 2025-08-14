@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"lotest/internal/app"
+)
 
 func main() {
-	fmt.Println("")
+	app := app.NewApp()
+	app.Run()
 }
